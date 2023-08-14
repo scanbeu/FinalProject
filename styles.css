@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.heading{
+    font-style: normal;
+    font-size: 70px;
+}
+
+.list1 a{
+   color: rgb(22, 22, 69);
+}
+
+.cameraimage {
+    position: relative;
+    margin-top: -20%; /* Move the image up by 20% */
+    margin-left: 33%; /* Move the image left by 18% */
+    margin-right: 23px;
+    margin-bottom: 20px;
+    height: 330px;
+    size: 80%;
+}
+
+header {
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.list-container{
+    position: relative;
+    margin-top: 2%; /* Move the image up by 20% */
+    margin-left: 13%; /* Move the image left by 18% */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.promotion-details {
+    padding: 30px;
+    text-align: center;
+}
+
+.promotion-details h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.promotion-details ul {
+    list-style: disc;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.promotion-details li {
+    margin-bottom: 10px;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
+/* Add a class for the fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s ease-in-out forwards;
+}
+
+/* Define the keyframes for the fade-in animation */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
